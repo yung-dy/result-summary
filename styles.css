@@ -30,6 +30,9 @@
     --Green-teal: hsl(166, 100%, 37%);
     --Cobalt-blue: hsl(234, 85%, 45%);
 
+
+    --light-blue: hsl(252, 100%, 67%);
+
     --button-color: hsl(224, 30%, 27%);
 }
 
@@ -123,7 +126,7 @@ img {
 }
 
 .rating {
-    text-align: right;
+    text-indent: ;
 }
 
 
@@ -184,4 +187,19 @@ img {
 
 .attribution p {
     padding-block-end: var(--margin-o);
+}
+
+@media (min-width: 760px) {
+
+    .container {
+        max-width: 50%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .result-content {
+        border-radius: var(--margin-b);
+    }
+    
 }
