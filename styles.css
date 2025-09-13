@@ -103,9 +103,8 @@ h3 {
     font-size: 1.1rem;
     margin-block-end: var(--padding-a);
     font-weight: 700;
+    color: var(--button-color);
 }
-
-
 
 .box {
     margin: var(--margin-a) 0;
@@ -113,11 +112,14 @@ h3 {
     padding: var(--margin-a);
     font-size: 0.9rem;
     font-weight: 700;
-
 }
 
 .reaction-content, .memory-content, .verbal-content, .visual-content {
     display: flex;
+}
+
+img {
+    padding-inline-end: 0.7rem;
 }
 
 .rating {
